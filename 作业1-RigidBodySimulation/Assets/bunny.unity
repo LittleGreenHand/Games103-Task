@@ -128,7 +128,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: df84ed21cbab14db1bd4f47d96d6796e, type: 3}
   m_PrefabInstance: {fileID: 658664174}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &833662
+--- !u!114 &833665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc2715a9b5854dd6abcd97c5de4f837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &833665
+  linear_decay: 0.999
+  angular_decay: 0.98
+  restitution_N: 0.5
+  restitution_T: 0.75
+--- !u!114 &833669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,36 +312,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 57b4ccd8760c447d082e9ac38d95ae7c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df84ed21cbab14db1bd4f47d96d6796e, type: 3}
---- !u!1 &658664175 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: df84ed21cbab14db1bd4f47d96d6796e, type: 3}
-  m_PrefabInstance: {fileID: 658664174}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &658664176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658664175}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a206a17ab354461d9109c257bb47bf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  launched: 0
---- !u!114 &658664177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658664175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfc2715a9b5854dd6abcd97c5de4f837, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &975240336
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +398,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975240336}
   m_LocalRotation: {x: -0.17928313, y: -0.49108967, z: 0.104062, w: -0.8460849}
-  m_LocalPosition: {x: -1.7306271, y: 2.0190694, z: -1.5942446}
+  m_LocalPosition: {x: -3.774, y: 3.044, z: -2.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
